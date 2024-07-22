@@ -1,10 +1,11 @@
+import * as React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
 
 const Home = () => {
+    const [categories, setCategories] = React.useState();
   return (
     <View>
-      <Text>Home</Text>
+      <Text>SAMAY</Text>
     </View>
   )
 }
